@@ -1,0 +1,40 @@
+/* Container Styles */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    border: 5px solid black;
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+/* Input Styles */
+input {
+    border: 3px solid black; 
+    border-radius: 15px; 
+    padding: 10px; 
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Button Styles */
+button {
+    border: 3px solid black; 
+    border-radius: 10px;
+    padding: 10px 15px; 
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Cifrar Button Styles */
+.cifrar {
+    background-color: #00ff00; 
+}
+
+/* Descifrar Button Styles */
+.descifrar {
+    background-color: #ff69b4; 
+}
